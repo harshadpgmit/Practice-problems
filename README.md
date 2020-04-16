@@ -7,7 +7,7 @@ per = (marks_scored / total_marks)*100
 print(per)
 if per>=70:
     print("fcd")
-elif per>=35:
+elif per>passin_per:
     print("pass")
 else:
     print("Fail")
